@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wikipedia Crawler | 180 Websites</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="libraries/jquery.js" charset="utf-8"></script>
+  <script src="libraries/bootstrap.js" charset="utf-8"></script>
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-inverse" style="border-radius: 0; margin-bottom: 0;">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle btn btn-info" data-toggle="collapse" data-target="#myNavbar">
+              Menu <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+          <a class="navbar-brand" href="#">Wikipedia Crawler</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://aaronmassey.pro/">Home</a></li>
+            <li><a href="https://medium.com/@aaronmassey45">Blog</a></li>
+            <li><a href="https://github.com/aaronmassey45">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container text-center">
+    <h2>This web app searches Wikipedia with the term you enter and chooses a random word from a random article and searches again!</h2>
+    <h3>See what article you end up on after ten random searches!</h3>
+    <p>Word: <input type="text" id="userInput" placeholder="Search Wikipedia"></p>
+  </main>
+</html>
